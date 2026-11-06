@@ -1,0 +1,29 @@
+{% extends "layouts/main.njk" %}
+
+{% block content %}
+
+<div class="card shadow-sm p-4">
+
+    <h1>{{ title }}</h1>
+
+    <p class="lead">
+        {{ message }}
+    </p>
+
+    <hr>
+
+    <h4>Our Application Roles</h4>
+
+    <ul>
+        <li>Admin</li>
+        <li>Student</li>
+        <li>Management</li>
+    </ul>
+
+    <p class="text-success">
+        Application started successfully!
+    </p>
+
+</div>
+
+{% endblock %}
